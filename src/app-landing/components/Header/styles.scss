@@ -1,0 +1,41 @@
+.AppLanding {
+  position: relative;
+}
+
+.AppLanding__Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+
+  z-index: 200;
+
+  .AppLanding__Header__logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  nav {
+    ul {
+      padding: 0;
+
+      li {
+        display: inline;
+        margin-left: 20px;
+
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+  }
+}

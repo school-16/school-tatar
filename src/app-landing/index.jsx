@@ -1,10 +1,11 @@
 import React from 'react';
-import Button from '../lib/Button';
+import Header from './components/Header';
+import Banner from './components/Banner';
 
 const AppLanding = () => (
   <div className="AppLanding">
-    <h1>Hello World</h1>
-    <Button>Hello</Button>
+    <Header />
+    <Banner />
   </div>
 );
 

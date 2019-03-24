@@ -1,7 +1,12 @@
 .Button {
   background: blue;
-  height: 50px;
-  min-width: 100px;
-  border: black;
+  border: none;
+
+  font-size: 16px;
+  font-weight: bold;
   color: #fff;
+
+  height: 50px;
+  min-width: 160px;
+  padding: 8px 30px;
 }
