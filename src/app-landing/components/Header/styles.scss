@@ -17,7 +17,8 @@
   z-index: 200;
 
   .AppLanding__Header__logo {
-    font-size: 32px;
+    font-family: monospace;
+    font-size: 22px;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
@@ -31,10 +32,12 @@
         display: inline;
         margin-left: 20px;
 
-        font-size: 18px;
+        font-size: 16px;
         font-family: sans-serif;
         font-weight: bold;
-        color: #fff;
+        a {
+          color: #fff;
+        }
       }
     }
   }

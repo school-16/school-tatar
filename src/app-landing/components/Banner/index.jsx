@@ -3,7 +3,7 @@ import Button from "../../../lib/Button";
 import "./styles.scss";
 
 const Banner = () => (
-  <div className="AppLanding__Banner">
+  <section className="AppLanding__Banner">
     <video className="AppLanding__Banner__video" autoPlay muted loop>
       <source src="/assets/coding.mp4" type="video/mp4" />
     </video>
@@ -13,8 +13,9 @@ const Banner = () => (
         <h2>Learn professions of future today</h2>
         <Button>Get Started</Button>
       </div>
+      <img src="/assets/bottom_shape.svg" />
     </div>
-  </div>
+  </section>
 );
 
 export default Banner;
