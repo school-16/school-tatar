@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../../lib/Button";
+import Button from "../../_lib/Button";
 import "./styles.scss";
 
 const Banner = () => (

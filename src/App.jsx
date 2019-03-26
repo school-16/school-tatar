@@ -1,10 +1,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
-import AppLanding from './app-landing/index';
+import HomePage from './containers/HomePage';
 
 const App = () => (
   <Switch>
-    <Route path="/" component={AppLanding} />
+    <Route path="/" component={HomePage} />
   </Switch>
 );
 
