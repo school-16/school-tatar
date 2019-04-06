@@ -1,12 +1,12 @@
-.AppLanding {
+.HomePage {
   position: relative;
 }
 
-.AppLanding__Header {
-  position: absolute;
+.HomePage__Header {
   top: 0;
   left: 0;
   width: 100%;
+  margin-bottom: 25px;
 
   display: flex;
   justify-content: space-between;
@@ -16,17 +16,21 @@
 
   z-index: 200;
 
-  .AppLanding__Header__logo {
+  &.position__absolute {
+    position: absolute;
+  }
+
+  .HomePage__Header__logo {
     font-family: monospace;
     font-size: 22px;
     font-weight: bold;
-    color: #fff;
     text-transform: uppercase;
   }
 
   nav {
     ul {
       padding: 0;
+      margin: 0;
 
       li {
         display: inline;
@@ -35,10 +39,25 @@
         font-size: 16px;
         font-family: sans-serif;
         font-weight: bold;
-        a {
-          color: #fff;
-        }
       }
+    }
+  }
+
+  &.style__light {
+    color: #fff;
+
+    nav ul li a {
+      color: #fff;
+    }
+  }
+
+  &.style__dark {
+    border-bottom: #ddd 1px solid;
+
+    color: #333a56;
+
+    nav ul li a {
+      color: #333a56;
     }
   }
 }

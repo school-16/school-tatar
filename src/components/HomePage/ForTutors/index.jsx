@@ -9,10 +9,10 @@ import {
 import "./styles.scss";
 
 const ForTutors = () => (
-  <section className="AppLanding__ForTutors">
+  <section className="HomePage__ForTutors">
     <div className="container">
       <h3>The best way to teach</h3>
-      <div className="AppLanding__ForTutors__line" />
+      <div className="HomePage__ForTutors__line" />
       <div className="row">
         <div className="col">
           <FontAwesomeIcon icon={faUserFriends} size="6x" />

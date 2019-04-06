@@ -1,11 +1,11 @@
-.AppLanding__Banner {
+.HomePage__Banner {
   position: relative;
 
   min-height: 75vh;
 
   overflow: hidden;
 
-  .AppLanding__Banner__video {
+  .HomePage__Banner__video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,7 +21,7 @@
     transform: translateX(-50%) translateY(-50%);
   }
 
-  .AppLanding__Banner__overlay {
+  .HomePage__Banner__overlay {
     position: absolute;
     top: 0;
     right: 0;

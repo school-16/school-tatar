@@ -9,7 +9,7 @@ import {
 import "./styles.scss";
 
 const Footer = () => (
-  <footer className="AppLanding__Footer">
+  <footer className="HomePage__Footer">
     <div className="container">
       <div className="row align-items-center">
         <div className="col-9">
