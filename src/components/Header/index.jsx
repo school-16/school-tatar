@@ -9,17 +9,17 @@ const Header = ({ absolute, style }) => (
       absolute ? "position__absolute" : ""
     } style__${style}`}
   >
-    <div className="HomePage__Header__logo">School 16</div>
+    <div className="HomePage__Header__logo">Школа 16</div>
     <nav>
       <ul>
         <li>
-          <Link to="/courses">Classes</Link>
+          <Link to="/courses">Классы</Link>
         </li>
         <li>
-          <Link to="/sign_up/tutor">For Tutors</Link>
+          <Link to="/sign_up/tutor">Для учителей</Link>
         </li>
         <li>
-          <Link to="/sign_up/student">For Students</Link>
+          <Link to="/sign_up/student">Для учеников</Link>
         </li>
       </ul>
     </nav>

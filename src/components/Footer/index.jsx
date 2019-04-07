@@ -13,17 +13,17 @@ const Footer = () => (
     <div className="container">
       <div className="row align-items-center">
         <div className="col-9">
-          <h4>School 16</h4>
+          <h4>Школа16</h4>
           <span>The Best Team Ever - 2019 &copy;</span>
         </div>
         <div className="col-3">
-          <strong>LINKS</strong>
+          <strong>Ссылки</strong>
           <ul>
             <li>
-              <Link to="/team">Team</Link>
+              <Link to="/team">Команда</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">О</Link>
             </li>
           </ul>
           <a href="https://vk.com" target="_blank" rel="noopener noreferrer">

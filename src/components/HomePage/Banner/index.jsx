@@ -9,9 +9,9 @@ const Banner = () => (
     </video>
     <div className="HomePage__Banner__overlay">
       <div className="container">
-        <h1>Welcome To Code School</h1>
-        <h2>Learn professions of future today</h2>
-        <Button>Get Started</Button>
+        <h1>Добро пожаловать в школу программирования.</h1>
+        <h2>Учим проффесии будущего.</h2>
+        <Button>Начать</Button>
       </div>
       <img src="/assets/bottom_shape.svg" />
     </div>

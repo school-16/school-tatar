@@ -4,14 +4,14 @@ import "./styles.scss";
 const ForStudents = () => (
   <section className="HomePage__ForStudents">
     <div className="container">
-      <h3>The best way to learn</h3>
+      <h3>Лучший путь к учению.</h3>
       <div className="HomePage__ForStudents__line" />
       <p>
-        Learn technologies and programming languages
+        Изучай технологии и языки программирования.
         <br />
-        such as web and C/C++, JS
+        Такие как web, C/C++, JS
         <br />
-        from best teachers.
+        От лучших учителей.
       </p>
 
       <p>

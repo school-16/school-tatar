@@ -9,7 +9,7 @@ const CoursesPage = ({ courses }) => (
   <div className="CoursesPage layout">
     <Header />
     <div className="container">
-      <h1>Classes</h1>
+      <h1>Классы</h1>
       {courses.map(course => (
         <CourseCard key={course.id} {...course} />
       ))}
