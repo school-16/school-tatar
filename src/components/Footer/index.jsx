@@ -23,7 +23,7 @@ const Footer = () => (
               <Link to="/team">Команда</Link>
             </li>
             <li>
-              <Link to="/about">О</Link>
+              <Link to="/about">О проекте</Link>
             </li>
           </ul>
           <a href="https://vk.com" target="_blank" rel="noopener noreferrer">
