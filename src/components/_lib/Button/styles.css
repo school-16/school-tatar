@@ -10,8 +10,8 @@
   height: 50px;
   min-width: 160px;
   padding: 8px 30px;
+}
 
-  &:focus {
-    outline: none;
-  }
+.Button:focus {
+  outline: none;
 }

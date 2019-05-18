@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 // import CourseCard from '../CoursesPage/CourseCard/index';
 import Header from "../Header/index";
 import Footer from "../Footer/index";
-import "./styles.scss";
+import "./styles.css";
 
 
 const CoursePage = ({ cover, title }) => (

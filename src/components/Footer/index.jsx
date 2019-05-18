@@ -6,7 +6,7 @@ import {
   faFacebook,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
-import "./styles.scss";
+import "./styles.css";
 
 const Footer = () => (
   <footer className="HomePage__Footer">

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./styles.scss";
+import "./styles.css";
 
 const TeamMate = ({ avatar, name, grade, email }) => (
   <div className="TeamPage__TeamMate">

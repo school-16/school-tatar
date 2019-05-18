@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import CourseCard from "./CourseCard";
 import Header from "../Header";
 import Footer from "../Footer";
-import "./styles.scss";
+import "./styles.css";
 
 const CoursesPage = ({ courses }) => (
   <div className="CoursesPage layout">

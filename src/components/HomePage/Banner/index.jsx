@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../_lib/Button";
-import "./styles.scss";
+import "./styles.css";
 
 const Banner = () => (
   <section className="HomePage__Banner">

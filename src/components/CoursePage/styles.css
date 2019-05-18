@@ -9,10 +9,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
 
-  h1{
-    display: inline;
-    color: white;
-    background: rgba(0,0,0,0.5);
-  }
+.CoursePage__cover h1{
+  display: inline;
+  color: white;
+  background: rgba(0,0,0,0.5);
 }

@@ -6,7 +6,7 @@ import {
   faChartLine
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./styles.scss";
+import "./styles.css";
 
 const ForTutors = () => (
   <section className="HomePage__ForTutors">

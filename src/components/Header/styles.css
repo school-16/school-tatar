@@ -1,0 +1,61 @@
+.HomePage {
+  position: relative;
+}
+
+.HomePage__Header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+
+  z-index: 200;
+}
+
+.HomePage__Header.position__absolute {
+  position: absolute;
+}
+
+.HomePage__Header.style__light {
+  color: #fff;
+}
+
+.HomePage__Header.style__light nav ul li a {
+  color: #fff;
+}
+
+.HomePage__Header.style__dark {
+  border-bottom: #ddd 1px solid;
+
+  color: #333a56;
+}
+
+.HomePage__Header.style__dark nav ul li a {
+  color: #333a56;
+}
+
+.HomePage__Header .HomePage__Header__logo {
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.HomePage__Header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.HomePage__Header nav ul li {
+  display: inline;
+  margin-left: 20px;
+
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}

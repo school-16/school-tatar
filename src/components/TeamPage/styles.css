@@ -7,18 +7,18 @@
   display: flex;
   margin: 20px 0;
   cursor: pointer;
-  
-  &:hover {
-    box-shadow: -2px 8px 22px 0 rgba(0, 0, 0, 0.15);
-  }
+}
 
-  .TeamPage__TeamMate__cover {
-    display: flex;
-    align-items: center;
-  }
+.TeamPage__TeamMate:hover {
+  box-shadow: -2px 8px 22px 0 rgba(0, 0, 0, 0.15);
+}
 
-  .TeamPage__TeamMate__content {
-    flex-grow: 1;
-    padding: 20px;
-  }
+.TeamPage__TeamMate__cover {
+  display: flex;
+  align-items: center;
+}
+
+.TeamPage__TeamMate__content {
+  flex-grow: 1;
+  padding: 20px;
 }
